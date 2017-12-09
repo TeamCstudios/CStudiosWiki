@@ -1,2 +1,2 @@
 # CStudiosWiki
-Official wiki of Team CStudios
+Official wiki of Team CStudios!
