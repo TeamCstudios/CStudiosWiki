@@ -1,17 +1,16 @@
 html, body {
     background-color: chartreuse;
-    text-align: left;
     font-family: "Courier New";
 }
 h1 {
     text-align: center;
 }
 h2 {
-
+    text-align: left;
 }
 h3 {
-
+    text-align: left;
 }
 p {
-
+    text-align: left;
 }
