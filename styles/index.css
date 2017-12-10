@@ -1,11 +1,11 @@
 html, body {
   background-color: #C638E8;
-  text-align: center;
+  text-align: left;
   font-family: "Courier New", monospace;
 }
 
 h1 {
-
+  text-align: center;
 }
 
 h2 {
