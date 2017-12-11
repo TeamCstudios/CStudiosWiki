@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #B89AFF;
+  color: #007FFF;
+  font-family: Arial, sans-serif;
+  border-top: 4px solid #3A67E8;
+}
+
+header {
+  border-bottom: 1px dotted #51a3ff;
+  height: 3em;
+}
+
+header h1 {
+  display: none;
+}
+
+header h5 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 80%;
+  color: #3A67E8;
+  text-transform: lowercase;
+  float: right;
+  margin-right: 2.5em;
+  margin-top: 2em;
+}
+
+header img.logo {
+  float: left;
+  margin-left: 1.8em;
+  margin-top: 0.5em;
+}
+
+nav {
+  position: absolute;
+  top: 3.5em;
+  left: 1em;
+  width: 14em;
+}
+
+nav ul {
+  list-style: none;
+  margin-left: 1em;
+  padding-left: 0;
+}
+
+nav li {
+  font-size: 80%;
+  border-bottom: 1px dotted #3A67E8;
+  margin-bottom: 0.3em;
+}
+
+nav a:link, a:visited {
+  color: #3A67E8;
+  text-decoration: none;
+}
+
+nav a:hover, a:active {
+  color: #448811;
+}
+
+nav h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #885511;
+  text-transform: lowercase;
+  margin-left: 0.88em;
+  padding-top: 1em;
+}
+
+section {
+  margin-left: 17em;
+  margin-right: 2em;
+  margin-top: 1em;
+}
+
+section h2 {
+  font-family: "Courier New", monospace;
+  font-size: 200%;
+  color: #007FFF;
+  margin: 0;
+}
+
+section p {
+  font-size: 100%;
+  line-height: 1.6em;
+  text-align: justify;
+}
+
+footer {
+  margin-top: 2em;
+  border-top: 1px dotted #3A67E8;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer p {
+  margin-left: 2em;
+  font-size: 80%;
+  color: #3A67E8;
+}
