@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #B89AFF;
-  color: #007FFF;
+  color: #000000;
   font-family: Arial, sans-serif;
   border-top: 4px solid #3A67E8;
 }
@@ -19,7 +19,7 @@ header h1 {
 header h5 {
   font-family: Georgia, "Times New Roman", serif;
   font-size: 80%;
-  color: #3A67E8;
+  color: #000000;
   text-transform: lowercase;
   float: right;
   margin-right: 2.5em;
@@ -52,17 +52,17 @@ nav li {
 }
 
 nav a:link, a:visited {
-  color: #3A67E8;
+  color: #000000;
   text-decoration: none;
 }
 
 nav a:hover, a:active {
-  color: #448811;
+  color: #000000;
 }
 
 nav h3 {
   font-family: Georgia, "Times New Roman", serif;
-  color: #885511;
+  color: #000000;
   text-transform: lowercase;
   margin-left: 0.88em;
   padding-top: 1em;
@@ -77,7 +77,7 @@ section {
 section h2 {
   font-family: "Courier New", monospace;
   font-size: 200%;
-  color: #007FFF;
+  color: #000000;
   margin: 0;
 }
 
