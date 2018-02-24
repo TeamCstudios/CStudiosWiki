@@ -1,0 +1,159 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*created by Your First Name Only, Spring ####*/
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, sans-serif;
+  color: #333333;
+  background-color: #cccccc;
+  text-align: justify;
+  /* changed */
+  background-image: url(../assets/images/chew_background.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center bottom;
+}
+
+div#container {
+  margin: 0 auto;
+  width: 955px;
+  background-color: rgba(230, 230, 230, 0.8);
+  padding: 20px;
+  margin-top: -70px;
+  border-radius: 6px;
+  border: 1px solid #000;
+}
+
+/* HEADER SECTION*/
+
+header {
+  margin-top: 20px;
+  /* changed */
+  width: 100%;
+  /* changed */
+  height: 50px;
+  clear: both;
+}
+
+header h1 {
+  display: none;
+}
+
+/* NAVIGATION SECTION*/
+
+nav {
+  left: 0;
+  position: absolute;
+  /* changed */
+  top: 0;
+  /* changed */
+  width: 100%;
+  /* changed */
+  height: 20px;
+  /* changed */
+  right: 0px;
+  font-size: 90%;
+  background-color: #ADB3C9;
+  white-space: nowrap;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  font-weight: bold;
+  float: left;
+}
+
+nav a {
+  color: rgb(255, 219, 227);
+  display: block;
+  text-decoration: none;
+  margin-right: 20px;
+  padding: 0px 20px;
+}
+
+nav a:link, nav a:visited {
+  color: #6A85A7;
+  text-decoration: none;
+}
+
+nav a:hover, nav a:active {
+  color: #122812;
+  text-decoration: none;
+}
+
+/* CONTENT SECTION*/
+
+section {
+  margin: 10px auto;
+  width: 955px;
+  font-family: 'Convergence', sans-serif;
+}
+
+section h2 {
+  margin: 0;
+  font-size: 175%;
+  color: #213B5D;
+  font-family: 'Sarina', cursive;
+}
+
+section h3 {
+  font-size: 100%;
+  margin-bottom: -14px;
+  color: #806E42;
+}
+
+section img {
+  float: right;
+  /* changed */
+  margin-left: 16px;
+  /* changed */
+  border-radius: 10px;
+  /* changed */
+  border: 1px solid #000000;
+  /* changed */
+  box-shadow: 2px 2px 2px;
+  /* changed */
+}
+
+section a:link, section a:visited {
+  color: #050505;
+  text-decoration: none;
+}
+
+section a:hover, section a:active {
+  color: #495D6F;
+  text-decoration: none;
+}
+
+/* FOOTER SECTION*/
+
+footer {
+  font-family: 'Convergence', sans-serif;
+  padding-top: 10px;
+  margin: 10px auto;
+  width: 955px;
+  clear: both;
+  border-top: 1px solid #000000;
+  /* changed */
+  font-size: 80%;
+  /* changed */
+}
+
+footer a:link, footer a:visited {
+  color: #050505;
+  text-decoration: none;
+}
+
+footer a:hover, footer a:active {
+  color: #495D6F;
+  text-decoration: none;
+}
