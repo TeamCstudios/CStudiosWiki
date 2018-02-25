@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*created by Your First Name Only, Spring ####*/
+/*created by Chew, Spring 2018*/
 
 body {
   margin: 0;
@@ -10,7 +10,6 @@ body {
   color: #333333;
   background-color: #cccccc;
   text-align: justify;
-  /* changed */
   background-image: url(../assets/images/chew_background.png);
   background-size: cover;
   background-attachment: fixed;
@@ -31,9 +30,7 @@ div#container {
 
 header {
   margin-top: 20px;
-  /* changed */
   width: 100%;
-  /* changed */
   height: 50px;
   clear: both;
 }
@@ -47,13 +44,9 @@ header h1 {
 nav {
   left: 0;
   position: absolute;
-  /* changed */
   top: 0;
-  /* changed */
   width: 100%;
-  /* changed */
   height: 20px;
-  /* changed */
   right: 0px;
   font-size: 90%;
   background-color: #ADB3C9;
@@ -113,15 +106,10 @@ section h3 {
 
 section img {
   float: right;
-  /* changed */
   margin-left: 16px;
-  /* changed */
   border-radius: 10px;
-  /* changed */
   border: 1px solid #000000;
-  /* changed */
   box-shadow: 2px 2px 2px;
-  /* changed */
 }
 
 section a:link, section a:visited {
@@ -143,9 +131,7 @@ footer {
   width: 955px;
   clear: both;
   border-top: 1px solid #000000;
-  /* changed */
   font-size: 80%;
-  /* changed */
 }
 
 footer a:link, footer a:visited {
