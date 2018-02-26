@@ -113,12 +113,12 @@ section img {
 }
 
 section a:link, section a:visited {
-  color: #050505;
+  color: #6A85A7;
   text-decoration: none;
 }
 
 section a:hover, section a:active {
-  color: #495D6F;
+  color: #122812;
   text-decoration: none;
 }
 
@@ -135,11 +135,11 @@ footer {
 }
 
 footer a:link, footer a:visited {
-  color: #050505;
+  color: #6A85A7;
   text-decoration: none;
 }
 
 footer a:hover, footer a:active {
-  color: #495D6F;
+  color: #122812;
   text-decoration: none;
 }
