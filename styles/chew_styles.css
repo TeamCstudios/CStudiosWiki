@@ -112,6 +112,17 @@ section img {
   box-shadow: 2px 2px 2px;
 }
 
+section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+section table th {
+  font-size: 100%;
+  margin-bottom: -14px;
+  color: #806E42;
+}
+
 section a:link, section a:visited {
   color: #6A85A7;
   text-decoration: none;
