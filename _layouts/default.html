@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <style>
+      @media (min-width: 576px) {
+        h1 {
+          margin-top: -50px;
+        }
+        div#saved {
+          margin-top: 0;
+          margin-bottom: 5px;
+        }
+      }
+      @media (max-width: 576px) {
+        h1 {
+          margin-top: -20px;
+        }
+        div#saved {
+          margin-top: 20px;
+          margin-bottom: -20px;
+        }
+        button#savebutton {
+          margin-top: 20px;
+        }
+      }
+      body {
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        font-family: "Courier New", monospace;
+        font-weight: bold;
+      }
+    </style>
+
+    <link href="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/bootstrap-table@1.16.0/dist/bootstrap-table.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/4ae5eef027.js"></script>
+  </head>
+  <body style="background-color: #{{ page.color }};">
+    <header></header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="/"><img src="/assets/images/logo.gif" alt="TeamCstudios Logo" title="TeamCstudios Logo" class="logo" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/characters"><i class="fas fa-user"></i> Characters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/videos"><i class="fas fa-play"></i> Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/games"><i class="fas fa-gamepad"></i> Games</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container" style="margin-top: 20px;">
+      <div class="jumbotron">
+        {{ content }}
+
+        <hr />
+
+        <footer>
+          <p>Copyright &copy; 2017-2020 - Created by MrJoCrafter and Chew on <a href="https://github.com/TeamCstudios/CStudiosWiki">GitHub</a></p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
