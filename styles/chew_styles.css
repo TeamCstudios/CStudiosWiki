@@ -4,3 +4,7 @@ body {
   background-attachment: fixed;
   background-position: center bottom;
 }
+
+table {
+  width: 100%;
+}
